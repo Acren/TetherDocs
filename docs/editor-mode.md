@@ -2,7 +2,7 @@ The **Cable Placement Mode** allows easy placement of cables by clicking points 
 
 To activate the editor mode, use the Modes dropdown or the appropriate shortcut keys.
 
-![Title](/images/modes.png)
+![Title](img/modes.png)
 
 With the mode activated, the mode panel can be used to customize the properties of any new cables created from then on.
 

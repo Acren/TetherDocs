@@ -3,7 +3,7 @@
 **Tether** is a tool for creating cables, ropes, hoses, and anything similar, in the **Unreal Engine 4** editor, for environment art and set-dressing purposes.
 Tether simulates physics and builds static meshes in-editor, allowing rapid creation and iteration of cables using a non-destructive workflow.
 
-![Title](/images/title.png)
+![Title](img/title.png)
 
 # Current Features
 
@@ -15,7 +15,7 @@ Tether simulates physics and builds static meshes in-editor, allowing rapid crea
 **Cable Actors:**
 
 - **Tether Cable Actors** are self-contained objects in the world that handle all the functionality for a single cable, including settings, physics simulation, mesh generation, and the resultant static mesh.
-- The initial shape of the cable that gets simulated can be controlled using Unreal's spline tools.
+- The overall path of the cable before simulation can be controlled using Unreal's spline tools.
 - When modified, cables are automatically resimulated and rebuilt for the fastest possible iteration time.
 - Simulation supports physics collision with other objects in the world, including other cables, allowing them to coil up on the ground and hang on eachother.
 - The mesh for the cable can be generated procedurally using a specified resolution for the number of sides and edge loops, or use a user-specified mesh for full control of the final result.

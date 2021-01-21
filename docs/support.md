@@ -1,6 +1,4 @@
-I hope I’ve made this plugin comprehensive enough to support any functionality you might need for your project. That being said, if there are any more features or options that you think could be included in this plugin, I'd really like to hear your thoughts.
-
-For support, bug reports, feature requests, etc, you can contact me on any of the following channels:
+For support, bug reports, feature requests and suggestions, etc, you can contact me on any of the following channels:
 
 - [UE Forum thread](https://forums.unrealengine.com/)
 - [Support Discord](https://discord.gg/ZuFP9DB)
