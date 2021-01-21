@@ -1,0 +1,9 @@
+site_name: Tether Docs
+pages:
+    - Introduction: index.md
+    - Installation: installation.md
+    - Cable Placement Mode: editor-mode.md
+    - Cable Actors: cable-actors.md
+    - Versions: versions.md
+    - Support: support.md
+theme: readthedocs
