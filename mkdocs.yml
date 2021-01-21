@@ -7,3 +7,5 @@ pages:
     - Versions: versions.md
     - Support: support.md
 theme: readthedocs
+extra_javascript:
+    - js/extra.js
