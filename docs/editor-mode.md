@@ -16,6 +16,8 @@ To end the cable, click another location in the viewport to place the final poin
 
 To create cables with multiple segments, instead shift-click a location to end the current segment and start a new one.
 
+![Points](img/points.png)
+
 # Adjusting Slack
 
 Slack can be adjusted for the current segment as part of the cable placement workflow by using the scroll-wheel before ending the segment.
