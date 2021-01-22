@@ -1,6 +1,6 @@
 **Tether Cable Actors** are self-contained objects in the world that are responsible for handling all of the functionality for a single cable, including settings, physics simulation, mesh generation, and the resultant static mesh.
 
-The overall path of the cable before simulation is determined by a **Spline Component** on the Actor, which may have already been set up using the [Cable Placement Mode](/editor-mode)
+The overall path of the cable before simulation is determined by a **Spline Component** on the Actor, which may have already been set up using the [Cable Placement Mode](editor-mode.md)
 
 # Physics Simulation
 

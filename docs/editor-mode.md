@@ -10,7 +10,7 @@ If **Auto Start Cable** is true, clicking in the viewport will start a new cable
 
 # Cable Point Placement
 
-When a new cable is started, a [Tether Cable Actor](/cable-actors) is created and the first point will be placed in the world at the location that was clicked in the viewport.
+When a new cable is started, a [Tether Cable Actor](cable-actors.md) is created and the first point will be placed in the world at the location that was clicked in the viewport.
 
 To end the cable, click another location in the viewport to place the final point of the cable.
 
