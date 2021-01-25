@@ -23,5 +23,9 @@ To create cables with multiple segments, instead shift-click a location to end t
 Slack can be adjusted for the current segment as part of the cable placement workflow by using the scroll-wheel before ending the segment.
 The **ctrl** modifier can be held for more fine adjustment.
 
+![Slack](img/slack.png)
+
 # Point Tangents
-When placing a point, **click and drag** to specify the direction or tangent of the cable along the surface. Hold **alt** to align the tangent to the normal of the surface.
+When placing a point, **click and drag** to specify the direction or tangent of the cable along the surface. Hold **alt** to align the tangent to the normal of the surface, which creates the appearance that the end of the cable is fixed to the surface.
+
+![Tangent](img/tangent.png)

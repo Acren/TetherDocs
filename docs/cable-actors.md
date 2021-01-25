@@ -7,6 +7,8 @@ The overall path of the cable before simulation is determined by a **Spline Comp
 Tether runs an asynchronous physics simulation for the cable, simulating for a certain amount of time and skipping ahead to the final result so that you don't need to wait for it.
 When the cable path or any applicable properties are modified, the simulation is run again automatically so that the cable stays up to date.
 
+![Title](img/collapsed.png)
+
 # Mesh Generation
 
 Once the physics simulation is complete, Tether generates a mesh for the cable using one of two methods which the user can specify per-cable:
@@ -28,3 +30,5 @@ The source mesh must be x axis aligned and be sufficiently tesselated to allow f
 As the geometry is copied from the source mesh when the mesh is generated, any changes to the source mesh won't be reflected afterward unless the cable mesh is regenerated.
 
 This mode is very powerful for creating more detailed cables, but has the potential to create very dense geometry if not used carefully.
+
+![Title](img/meshtypes.png)
