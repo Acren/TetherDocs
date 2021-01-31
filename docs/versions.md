@@ -4,10 +4,22 @@ Each plugin version is (usually) released to support the latest engine version o
 
 Plugin    | Engine
 -------   | ------
+beta-0.13 | 4.26
 beta-0.12 | 4.26
 beta-0.11 | 4.26  
 
 # Release Notes
+
+## beta-0.13
+
+- Added a cable property to specify the collision profile to use during simulation
+- Holding ctrl will now suspend simulation of the current cable until it is released
+- The modifier to adjust cable slack more finely has been changed from ctrl to shift
+- Fixed an ensure being triggered when the cable end point is set while the first simulation is running
+- Fixed incorrect tangent being used when setting normal-aligned tangents while holding alt when left mouse button is not down
+- Changed FTetherAsyncMeshBuildTaskParams object pointers to weak pointers, which may have been causing crashes before
+- Fixed being able to destroy the static mesh component and cause a crash using the property on the cable actor details
+- Source code cleanup and comments
 
 ## beta-0.12
 
