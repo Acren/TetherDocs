@@ -116,6 +116,10 @@
 </thead>
 <tbody>
 <tr>
+<td>beta-0.13</td>
+<td>4.26</td>
+</tr>
+<tr>
 <td>beta-0.12</td>
 <td>4.26</td>
 </tr>
@@ -126,6 +130,17 @@
 </tbody>
 </table>
 <h1 id="release-notes">Release Notes</h1>
+<h2 id="beta-013">beta-0.13</h2>
+<ul>
+<li>Added a cable property to specify the collision profile to use during simulation</li>
+<li>Holding ctrl will now suspend simulation of the current cable until it is released</li>
+<li>The modifier to adjust cable slack more finely has been changed from ctrl to shift</li>
+<li>Fixed an ensure being triggered when the cable end point is set while the first simulation is running</li>
+<li>Fixed incorrect tangent being used when setting normal-aligned tangents while holding alt when left mouse button is not down</li>
+<li>Changed FTetherAsyncMeshBuildTaskParams object pointers to weak pointers, which may have been causing crashes before</li>
+<li>Fixed being able to destroy the static mesh component and cause a crash using the property on the cable actor details</li>
+<li>Source code cleanup and comments</li>
+</ul>
 <h2 id="beta-012">beta-0.12</h2>
 <ul>
 <li>Fixed crash when attempting to resimulate a cable that has too few spline points, now resimulating requires at least 2 points</li>
