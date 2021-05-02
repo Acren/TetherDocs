@@ -4,11 +4,21 @@ Each plugin version is (usually) released to support the latest engine version o
 
 Plugin    | Engine
 -------   | ------
+beta-0.14 | 4.26
 beta-0.13 | 4.26
 beta-0.12 | 4.26
 beta-0.11 | 4.26  
 
 # Release Notes
+
+## beta-0.14
+
+- Fixed crashes in Standalone play mode
+- Fixed cable invalidating static lighting for packaged builds during cook process
+- Fixed errors in packaged builds about missing components
+- Fixed ensures triggering in packaged builds about mesh UVChannelData not being initialized
+- Fixed realtime simulation preview not behaving correctly with higher substep times
+- Cables no longer collide with Trigger actors
 
 ## beta-0.13
 
