@@ -8,16 +8,10 @@ sidebar_position: 5
 
 Each plugin version is (usually) released to support the latest engine version only.
 
-Plugin    | Engine
--------   | ------
-beta-0.14 | 4.26
-beta-0.13 | 4.26
-beta-0.12 | 4.26
-beta-0.11 | 4.26  
-
 ## Release Notes
 
 ### beta-0.14
+`UE 4.26`
 
 - Fixed crashes in Standalone play mode
 - Fixed cable invalidating static lighting for packaged builds during cook process
@@ -27,6 +21,7 @@ beta-0.11 | 4.26
 - Cables no longer collide with Trigger actors
 
 ### beta-0.13
+`UE 4.26`
 
 - Added a cable property to specify the collision profile to use during simulation
 - Holding ctrl will now suspend simulation of the current cable until it is released
@@ -38,6 +33,7 @@ beta-0.11 | 4.26
 - Source code cleanup and comments
 
 ### beta-0.12
+`UE 4.26`
 
 - Fixed crash when attempting to resimulate a cable that has too few spline points, now resimulating requires at least 2 points
 - Fixed tangents on adjacent points being lost when adding a point with the Unreal spline tools
@@ -45,5 +41,6 @@ beta-0.11 | 4.26
 - Removed the ability to realtime simulation preview on multiple selected cables at the same time, as it's not useful and can lead to inconsistent results
 
 ### beta-0.11
+`UE 4.26`
 
 - Initial beta release for UE 4.26
