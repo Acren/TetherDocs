@@ -7,23 +7,79 @@
 
 /* You can override the default Infima variables here. */
 :root {
---ifm-color-primary: #83aaff;
---ifm-color-primary-dark: #5c90ff;
---ifm-color-primary-darker: #4982ff;
---ifm-color-primary-darkest: #0f5bff;
---ifm-color-primary-light: #aac4ff;
---ifm-color-primary-lighter: #bdd2ff;
---ifm-color-primary-lightest: #f7f9ff;
+  --ifm-color-primary: #83aaff;
+  --ifm-color-primary-dark: #5c90ff;
+  --ifm-color-primary-darker: #4982ff;
+  --ifm-color-primary-darkest: #0f5bff;
+  --ifm-color-primary-light: #aac4ff;
+  --ifm-color-primary-lighter: #bdd2ff;
+  --ifm-color-primary-lightest: #f7f9ff;
   --ifm-code-font-size: 95%;
 }
 
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+html[data-theme='dark'] {
+  --ifm-background-color: rgb(30, 32, 35);
+  --ifm-background-surface-color: #28292c;
+  --ifm-font-color-base: rgb(200, 213, 220);
+  --ifm-color-emphasis-100: rgb(35, 37, 41);
+  --ifm-heading-color: rgb(210, 223, 230);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+.alert {
+  background-color: var(--ifm-background-surface-color);
+  border-color: var(--ifm-alert-border-color);
+  color: var(--ifm-font-color-base);
+}
+
+.alert a {
+  color: var(--ifm-color-primary);
+  text-decoration: var(--ifm-link-decoration);
+}
+
+.alert .admonition-heading {
+  color: var(--ifm-font-color-base);
+}
+
+.admonition-icon svg {
+  fill: var(--ifm-alert-border-color);
+  stroke: var(--ifm-alert-border-color);
+  margin-right: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.admonition {
+  border: none;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 0;
+  border-left-width: 0.3rem;
+  border-left-style: solid;
+  border-color: var(--ifm-alert-border-color);
+}
+
+details {
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 0;
+  border-left-width: 0.3rem;
+  border-left-style: solid;
+  border-color: var(--ifm-color-emphasis-900);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  margin-bottom: 1em;
+}
+
+summary {
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] summary {
+  margin-bottom: 1em;
+}
+
+.alert--secondary {
+  --ifm-alert-background-color: var(--ifm-color-emphasis-900);
+  --ifm-alert-border-color: var(--ifm-color-emphasis-900);
 }
