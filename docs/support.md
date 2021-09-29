@@ -11,7 +11,9 @@ For support, bug reports, feature requests and suggestions, etc, use the followi
 - [Twitter](https://twitter.com/itsAcren)
 - [Email](mailto:acren.marketplace@gmail.com)
 
-If you do have a bug, crash, or any other issue please let me know the following:
+## Information to provide for support
+
+If you do have a bug, crash, or any other issue please include the following information:
 
 - The engine version
 - The plugin version
