@@ -7,7 +7,7 @@ sidebar_position: 7
 For support, bug reports, feature requests and suggestions, etc, use the following channels:
 
 - [Unreal Forum](https://forums.unrealengine.com/)
-- [Discord](https://discord.gg/ZuFP9DB)
+- [Discord](https://discord.gg/3sTetT8yKB)
 - [Twitter](https://twitter.com/itsAcren)
 - [Email](mailto:acren.marketplace@gmail.com)
 
