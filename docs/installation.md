@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Installation
 
-**Tether** is available as a plugin through the [Unreal Marketplace](https://www.unrealengine.com/marketplace/).
+**Tether** is available as a plugin through the [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/product/tether).
 
 Installation is typical for an Unreal plugin:
 
