@@ -5,7 +5,7 @@ slug: /
 
 # Intro
 
-**Tether** is a tool for creating cables, ropes, hoses, and anything similar, in the **Unreal Engine 4** editor, for environment art and set-dressing purposes.
+**Tether** is a tool for creating cables, ropes, flexible pipes, and anything similar, in the **Unreal Engine** editor, for environment art and set-dressing purposes.
 Tether simulates physics and builds static meshes in-editor, allowing rapid creation and iteration of cables using a non-destructive workflow.
 
 ![Title](img/title.png)
