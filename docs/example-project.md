@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Example Project
 
-The example project contains various examples of different cable setups using Tether.
+The example project is available for engine versions 4.26 and newer, and contains various examples of different cable setups using Tether.
 
 import Tabs from '@theme/Tabs';
 
