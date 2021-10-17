@@ -10,6 +10,13 @@ Each plugin version is (usually) released to support the latest engine version o
 
 ## Release Notes
 
+### 1.0.1 {#1_0_1}
+`UE 4.25` `UE 4.26` `UE 4.27`
+
+- UE 4.25 now supported
+- Added plugin icon and updated descriptions and category
+- Internal fixes for automation tests that were failing in some scenarios
+
 ### 1.0 {#1_0}
 `UE 4.26` `UE 4.27`
 
