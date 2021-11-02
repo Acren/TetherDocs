@@ -4,11 +4,15 @@ sidebar_position: 6
 
 # Versions
 
-## Compatibility
-
-Each plugin version is (usually) released to support the latest engine version only.
-
 ## Release Notes
+
+### 1.0.2 {#1_0_2}
+`UE 4.25` `UE 4.26` `UE 4.27`
+
+- Fixed a crash in Standalone mode when loading a map with a cable that has Lock State enabled
+- Fixed a crash when using a custom mesh that has the pivot on one end
+- Fixed a crash when undoing after deleting a cable spline point
+- Fixed a crash when deleting a spline point on a cable that was loaded with the map
 
 ### 1.0.1 {#1_0_1}
 `UE 4.25` `UE 4.26` `UE 4.27`
