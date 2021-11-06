@@ -20,6 +20,4 @@ If you do have a bug, crash, or any other issue please include the following inf
 - Steps to reproduce the issue
 - If crashing, the .log file(s) from the `ProjectName/Saved/Logs` directory
 
-Thanks!
-
-*Acren / Sam*
+Thank you
