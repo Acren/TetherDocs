@@ -6,6 +6,12 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.0.3 {#1_0_3}
+`UE 4.25` `UE 4.26` `UE 4.27`
+
+- Fixes for UE 5.0 EA
+- Plugin can now be compiled using Clang
+
 ### 1.0.2 {#1_0_2}
 `UE 4.25` `UE 4.26` `UE 4.27`
 
