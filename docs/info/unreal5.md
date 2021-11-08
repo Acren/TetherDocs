@@ -18,3 +18,7 @@ However, the plugin can be manually compiled for Unreal 5 using the steps below.
       OR
 
     * Build the project through Visual Studio or IDE of your choice.
+
+:::info
+Please note the **Self-collision** feature does not currently work with Unreal 5 or the Chaos physics system. The option will be ignored when enabled.
+:::
