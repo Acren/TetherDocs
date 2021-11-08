@@ -56,4 +56,21 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/info/example-project',
+            from: ['/example-project'],
+          },
+          {
+            to: '/info/versions',
+            from: ['/versions'],
+          },
+        ],
+      },
+    ],
+  ],
 };
