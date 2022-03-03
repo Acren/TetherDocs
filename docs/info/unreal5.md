@@ -4,8 +4,12 @@ sidebar_position: 7
 
 # Unreal Engine 5
 
-Unreal Engine 5 is currently in Early Access and is not officially supported through the launcher.
-However, the plugin can be manually compiled for Unreal 5 using the steps below.
+Unreal Engine 5 is currently in Preview and is not officially supported in the Marketplace.
+However, the plugin can be manually compiled for Unreal 5 Early Access builds using the steps below.
+
+:::note
+This method currently only works using the Early Access builds of Unreal 5, not the Preview builds.
+:::
 
 :::info
 Please note the **Self-collision** feature does not currently work with Unreal 5 or the Chaos physics system. The option will be ignored when enabled.
