@@ -6,9 +6,8 @@ sidebar_position: 7
 
 For support, bug reports, feature requests and suggestions, etc, use the following channels:
 
-- [Unreal Forum](https://forums.unrealengine.com/t/new-tether-procedural-cable-rope-placement-tool/254197)
 - [Discord](https://discord.gg/3sTetT8yKB)
-- [Twitter](https://twitter.com/itsAcren)
+- [Unreal Forum](https://forums.unrealengine.com/t/new-tether-procedural-cable-rope-placement-tool/254197)
 - [Email](mailto:acren.marketplace@gmail.com)
 
 ## Information to provide for support
