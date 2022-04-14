@@ -6,6 +6,17 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.1 {#1_1}
+`UE 5.0`
+
+- UE 5.0 now supported
+- Fixed an issue sometimes causing a crash when modifying a material on multiple cables at the same time
+
+:::note
+UE5 changes the physics engine from PhysX to Chaos. The plugin mostly still works as expected, however the "self-collision" feature does not work with Chaos yet and is therefore disabled in this release.
+It may also be more difficult to get cables to rest on other cables with the default settings - if so you can increase the Collision Friction in the Simulation Properties.
+:::
+
 ### 1.0.3 {#1_0_3}
 `UE 4.25` `UE 4.26` `UE 4.27`
 
