@@ -31,7 +31,7 @@ This mode takes a user-specified Static Mesh asset and repeats it along the leng
 The number of instances of the mesh to be repeated can be specified by the user, or calculated automatically based on the width and length of the cable and the source mesh.
 Material IDs are also copied, allowing the use of the same number of materials as the source mesh.
 
-The source mesh must be x axis aligned and be sufficiently tesselated to allow for proper deformation, just like with spline meshes. When simulating physics with collision with other objects, it's also recommended to keep the mesh as cylindrical as possible as the collision for the cable while it is simulating is approximate and does not factor in the shape of the mesh.
+The source mesh must be x axis aligned and have sufficient geometry to allow for proper deformation, just like with spline meshes. When simulating physics with collision with other objects, it's also recommended to keep the mesh as cylindrical as possible as the collision for the cable while it is simulating is approximate and does not factor in the shape of the mesh.
 
 As the geometry is copied from the source mesh when the mesh is generated, any changes to the source mesh won't be reflected afterward unless the cable mesh is regenerated.
 
