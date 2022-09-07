@@ -11,7 +11,7 @@ sidebar_position: 6
 
 - Fixed a crash when adding a Blueprint property get or set node for Cable Properties
 - Possible fix for a rare crash after cable simulation
-- Hide the materials section on Tether Cable Actor that was appearing in UE5 and causing confusion (not the intended way of applying materials)
+- Removed the 'Materials' property section on Tether Cable Actor that was appearing in UE5 and causing confusion (the intended way of applying materials is in Cable Properties)
 
 ### 1.1 {#1_1}
 `UE 5.0`
