@@ -6,6 +6,13 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.1.1 {#1_1_1}
+`UE 5.0` `UE 4.27`
+
+- Fixed a crash when adding a Blueprint property get or set node for Cable Properties
+- Possible fix for a rare crash after cable simulation
+- Hide the materials section on Tether Cable Actor that was appearing in UE5 and causing confusion (not the intended way of applying materials)
+
 ### 1.1 {#1_1}
 `UE 5.0`
 
@@ -17,14 +24,18 @@ UE5 changes the physics engine from PhysX to Chaos. The plugin mostly still work
 It may also be more difficult to get cables to rest on other cables with the default settings - if so you can increase the Collision Friction in the Simulation Properties.
 :::
 
+:::note
+The release for this version was incorrectly labelled as 1.0.4. Apologies for any confusion.
+:::
+
 ### 1.0.3 {#1_0_3}
-`UE 4.25` `UE 4.26` `UE 4.27`
+`UE 4.27` `UE 4.26` `UE 4.25` 
 
 - Fixes for UE 5.0 EA
 - Plugin can now be compiled using Clang
 
 ### 1.0.2 {#1_0_2}
-`UE 4.25` `UE 4.26` `UE 4.27`
+`UE 4.27` `UE 4.26` `UE 4.25` 
 
 - Fixed a crash in Standalone mode when loading a map with a cable that has Lock State enabled
 - Fixed a crash when using a custom mesh that has the pivot on one end
@@ -32,14 +43,14 @@ It may also be more difficult to get cables to rest on other cables with the def
 - Fixed a crash when deleting a spline point on a cable that was loaded with the map
 
 ### 1.0.1 {#1_0_1}
-`UE 4.25` `UE 4.26` `UE 4.27`
+`UE 4.27` `UE 4.26` `UE 4.25` 
 
 - UE 4.25 now supported
 - Added plugin icon and updated descriptions and category
 - Internal fixes for automation tests that were failing in some scenarios
 
 ### 1.0 {#1_0}
-`UE 4.26` `UE 4.27`
+`UE 4.27` `UE 4.26`
 
 - Added an example project with various cable setups
 - Added an option to auto-tile the material UVs across the length of the cable
