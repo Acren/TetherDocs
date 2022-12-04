@@ -17,6 +17,8 @@ If you do have a bug, crash, or any other issue please include the following inf
 - The engine version
 - The plugin version
 - Steps to reproduce the issue
-- If crashing, the .log file(s) from the `ProjectName/Saved/Logs` directory
+- Does the issue occur in the editor, packaged builds, or both?
+- Does the issue occur in the [example project](/info/example-project/)?
+- If possible, the most recent .log file (usually `ProjectName.log`) from the `ProjectName/Saved/Logs` directory, after the issue occured
 
 Thank you
