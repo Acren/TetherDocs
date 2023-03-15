@@ -6,6 +6,11 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.2.1 {#1_2_1}
+`UE 5.1`
+
+- Stability improvements and crash fixes
+
 ### 1.2 {#1_2}
 `UE 5.1`
 
