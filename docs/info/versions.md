@@ -6,6 +6,11 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.2.2 {#1_2_2}
+`UE 5.1`
+
+- Fixed a crash when loading a cable that was saved with missing point data
+
 ### 1.2.1 {#1_2_1}
 `UE 5.1`
 
