@@ -14,8 +14,8 @@ For support, bug reports, feature requests and suggestions, etc, use the followi
 
 If you do have a bug, crash, or any other issue please include the following information:
 
-- The engine version
-- The plugin version
+- The Unreal Engine version
+- The plugin version (from the Edit > Plugins window)
 - Steps to reproduce the issue
 - Does the issue occur in the editor, packaged builds, or both?
 - Does the issue occur in the [example project](/info/example-project/)?
