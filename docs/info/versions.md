@@ -6,6 +6,11 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.3.1 {#1_3_1}
+`UE 5.2`
+
+- Added a static check to make sure projects are using the new 5.2 engine include order version, as older versions prevent the plugin from compiling
+
 ### 1.3 {#1_3}
 `UE 5.2`
 
