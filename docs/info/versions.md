@@ -6,6 +6,10 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.6 {#1_6}
+
+- UE 5.5 now supported
+
 ### 1.5 {#1_5}
 `UE 5.4`
 
