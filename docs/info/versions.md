@@ -6,7 +6,13 @@ sidebar_position: 6
 
 ## Release Notes
 
+### 1.6.1 {#1_6_1}
+`UE 5.5`
+
+- Speculative fix for a crash occuring with the editor tools
+
 ### 1.6 {#1_6}
+`UE 5.5`
 
 - UE 5.5 now supported
 
